@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.container{
+ display: flex;
+
+ width: 820px;
+ align-items: center;
+ justify-content: center;
+    padding: 1.5rem;
+    gap: 1rem;
+border: 5px;
+ background-color: white;
+ box-shadow: hsl(180deg 60.22% 86.52%) 8px 8px 11px 0px;
+}
+.text_container{
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  justify-content: space-around;
+}
+
+.company{
+  display: flex;
+  align-items: center;
+ gap: 1rem;
+}
+
+ .language{
+  display: flex;
+  align-items: center;
+gap: 1rem;
+}
+.job_need{
+display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 650px;
+}
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.name{
+  color:  hsl(180, 29%, 50%);
+  font-weight: 700;
+}
+
+.new{
+  background-color: hsl(180, 29%, 50%);
+  color: white;
+  border-radius: 15px;
+  padding:  5px;
+}
+
+.tools, .level, .role, .lang{
+  background-color: hsl(180, 52%, 96%);
+  color: hsl(180, 29%, 50%);
+  padding:  5px;
+  border-radius: 10px;
+  font-weight: 700;
+}
+.tools:hover, .level:hover, .role:hover, .lang:hover{
+   background-color:  hsl(180, 29%, 50%);
+  color: hsl(180, 52%, 96%);
+  padding:  5px;
+  border-radius: 10px;
+  font-weight: 700;
+   box-shadow: hsl(180deg 60.22% 86.52%) 8px 8px 11px 0px;
+}
+
+.position{
+  font-weight: 900;
+  font-size: 17px;
+  color: black;
+}
+.position:hover{
+  font-weight: 900;
+  font-size: 17px;
+  color: hsl(180, 29%, 50%);
+}
+
+.ft{
+background-color: black;
+color: white;
+padding: 5px;
+border-radius: 15px;
+}
+.filter{
+  display: flex;
+      align-items: center;
+    justify-content: space-between;
+    width: 820px;
+    margin: 10px auto;
+     padding: 1rem;
+  border-radius: 15px;
+ box-shadow: hsl(180deg 60.22% 86.52%) 8px 8px 11px 0px;
+ background-color: white;
+ 
+}
+
+button:hover{
+  border: 0px; 
+}
+
+.clear:hover{
+color: hsl(180, 29%, 50%);
+font-weight: 700;
+ text-decoration: underline  hsl(180, 29%, 50%);
+}
